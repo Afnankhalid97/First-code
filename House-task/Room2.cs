@@ -4,7 +4,7 @@
     {
         public void OnRoom2(object source, EventArgs args)
         {
-            Console.WriteLine("Room2: Pick the order:");
+            Console.WriteLine("Room2: Ali plz! Pick the order:");
         }
     }
 }
