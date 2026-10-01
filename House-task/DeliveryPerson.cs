@@ -12,7 +12,7 @@ namespace House_task
         public event EventHandler<BellEventArgs> Ring;
         public void Door(Bell bell)
         {
-            Console.WriteLine("Bell is ringing... ");
+            Console.WriteLine("Bell is ringing for any random door ... ");
             Thread.Sleep(2000);
             OnRing(bell);
         }
