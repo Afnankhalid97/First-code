@@ -13,6 +13,7 @@ namespace House_task
         public void Door(Bell bell)
         {
             Console.WriteLine("Bell is ringing for any random door ... ");
+            Console.WriteLine("Bell is ringing for door 1 ... ");
             Thread.Sleep(2000);
             OnRing(bell);
         }
